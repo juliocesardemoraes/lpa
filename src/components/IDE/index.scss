@@ -1,0 +1,40 @@
+.double {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  color: #fff;
+  padding-top: 5%;
+}
+
+.decorationsOverviewRuler {
+  display: none !important;
+}
+
+.editor {
+  margin-top: 4rem;
+  width: 400px !important;
+  height: 300px;
+  padding-left: 10%;
+}
+
+.text__edited {
+  text-align: center;
+  min-height: 100px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+@keyframes blink {
+  from,
+  to {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.text__edited span::after {
+  content: "|";
+  animation: blink 1s step-end infinite;
+}

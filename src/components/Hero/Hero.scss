@@ -1,0 +1,40 @@
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.header__container {
+  background: #222;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+canvas {
+  position: absolute;
+  right: 0;
+  width: 50% !important;
+  height: 75% !important;
+}
+
+nav {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  background: #252326;
+}
+
+h1 {
+  margin-left: 1rem;
+  color: #fff;
+}
+
+.loading {
+  color: #fff;
+  font-size: 64px;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
